@@ -1,0 +1,27 @@
+Vamos analisar a situação passo a passo para descobrir a cadeira em que houve a troca de alunos e determinar a disciplina de cada um.
+
+Inicialmente, temos 25 alunos organizados alternadamente em grupos de Português (P) e Matemática (M) na sala de aula, o que significa que há 13 alunos que gostam de Português (P) e 12 que gostam de Matemática (M).
+
+Quando chegaram mais 11 alunos, a configuração da sala ficou da seguinte maneira:
+
+PPPPPPPPPPMMMPPPPPPPPPPM
+
+Agora, precisamos considerar a situação após a troca que aconteceu enquanto o professor estava ausente. Vamos supor que a troca tenha ocorrido entre um aluno que gosta de Português (P) e um aluno que gosta de Matemática (M). Precisamos encontrar essa troca.
+
+Vamos examinar as possibilidades:
+
+Se um aluno de Matemática (M) trocou de lugar com um aluno de Português (P), então um "P" e um "M" adjacentes devem ter sido trocados entre si. Vamos testar cada conjunto de "P" e "M" na configuração atual:
+
+PPPPPPPPPMMMPPPPPPPPPPM -> Não há "P" e "M" adjacentes para troca.
+PPPPPPPPPMMMPPPPPPPPPPM -> Não há "P" e "M" adjacentes para troca.
+PPPPPPPPPMMMPPPPPPPPPPM -> Aqui temos um conjunto de "P" e "M" adjacentes que foram trocados: Troca entre o 10º e 11º aluno.
+Portanto, a troca ocorreu entre o 10º e o 11º aluno na configuração inicial. Isso significa que o aluno que originalmente estava na 10ª cadeira gostava de Matemática (M), enquanto o aluno que estava na 11ª cadeira gostava de Português (P).
+
+Essa é a cadeira em que houve a troca de alunos e as disciplinas de cada um:
+
+O aluno que estava na 10ª cadeira originalmente gostava de Matemática (M).
+O aluno que estava na 11ª cadeira originalmente gostava de Português (P).
+
+
+
+
