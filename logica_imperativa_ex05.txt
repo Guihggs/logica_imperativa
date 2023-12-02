@@ -1,0 +1,11 @@
+Função AlocarPessoas(pessoas):
+    Se pessoas é um grupo de 5 ou mais:
+        Alocar grupo no 1º andar
+    Senão, se pessoas incluem fumantes ou animais de estimação:
+        Alocar grupo na área externa
+    Senão:
+        Alocar grupo no térreo
+
+Exemplo de Uso:
+grupo_de_clientes = [pessoa1, pessoa2, pessoa3, ...]  // Lista de pessoas no grupo
+AlocarPessoas(grupo_de_clientes)  // Chama a função para alocar o grupo de clientes
