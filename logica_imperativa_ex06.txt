@@ -1,0 +1,11 @@
+PROCEDIMENTO GerarEtiquetas():
+    ESCREVER "Insira o nome da equipe:"
+    nome_equipe <- OBTER_INPUT()  // Recebe o nome da equipe inserido pelo usuário
+    PARA i DE 1 ATÉ 5 FAÇA  // Loop para gerar etiquetas para os 5 membros da equipe
+        etiqueta <- CONCATENAR(nome_equipe, " - ", i)  // Cria a etiqueta para o membro atual
+        ESCREVER etiqueta  // Exibe a etiqueta para o usuário
+    FIM_PARA
+FIM_PROCEDIMENTO
+
+// Chama o procedimento para gerar etiquetas
+GerarEtiquetas()
